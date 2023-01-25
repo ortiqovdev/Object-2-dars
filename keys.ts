@@ -62,3 +62,27 @@
 //     console.log(`${hom.clock}:${hom.minute}:${hom.sec}`);
 
 // })
+
+if (clocks[0].sec < 60) {
+    let a: number = clocks[0].sec
+    console.log(a);
+
+} else if (clocks[0].sec > 60) {
+    let b: number = Math.ceil(clocks[0].sec - 60)
+    console.log(b);
+
+}
+else {
+
+}
+console.log();
+
+
+
+
+
+
+
+
+
+
